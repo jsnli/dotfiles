@@ -10,4 +10,4 @@ option_as_alt = "Both"
 
 [font]
 normal.family = "Inconsolata Nerd Font"
-size = 20
+size = 16 
