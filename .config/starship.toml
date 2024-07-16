@@ -1,0 +1,17 @@
+format = """
+$os\
+$username\
+$directory\
+$git_branch\
+$git_status\
+$time\
+$line_break$character
+"""
+
+[username]
+show_always = true
+
+[time]
+disabled = false
+time_format = "%R"
+format = '[[at  $time ](fg:color_fg0 bg:color_bg1)]($style)'

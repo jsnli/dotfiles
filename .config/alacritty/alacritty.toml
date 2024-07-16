@@ -1,0 +1,15 @@
+import = ["~/.config/alacritty/rose-pine.toml"]
+
+[window]
+opacity = 0.95
+blur = true
+padding.x = 10
+padding.y = 10
+
+[font]
+normal.family = "CommitMono Nerd Font"
+bold.family = "CommitMono Nerd Font"
+italic.family = "CommitMono Nerd Font"
+bold_italic.family = "CommitMono Nerd Font"
+
+size = 14.0
