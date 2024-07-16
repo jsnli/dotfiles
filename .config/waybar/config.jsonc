@@ -1,0 +1,22 @@
+{
+  "layer": "top",
+  "modules-left": ["hyprland/workspaces", "hyprland/mode"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["pulseaudio", "clock"],
+  "hyprland/window": {
+    "max-length": 50,
+  },
+  "pulseaudio": {
+    "tooltip": false,
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-muted": " {volume}%",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "format-icons": {
+      "default": ["", "", ""],
+    },
+  },
+  "clock": {
+    "format-alt": "{:%a, %d. %b  %H:%M}",
+  },
+}

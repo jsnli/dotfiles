@@ -1,0 +1,41 @@
+** {
+  border: none;
+  border-radius: 0;
+  font-family: CommitMono Nerd Font;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(25, 23, 36, 0.95);
+  color: #e0def4;
+}
+
+#window {
+  background: none;
+  color: #ebbcba;
+  padding: 10px 0;
+}
+
+#workspaces button {
+  padding: 0 15px;
+  background: transparent;
+  color: #e0def4;
+  border-bottom: 3px solid transparent;
+}
+
+#workspaces button.hover {
+  border-bottom: 3px solid #ebbcba;
+}
+
+#workspaces button.active {
+  background: #ebbcba;
+  color: #191724;
+}
+
+#clock,
+#pulseaudio {
+  background-color: #ebbcba;
+  color: #191724;
+  padding: 0 25px;
+}
