@@ -1,0 +1,59 @@
+window {
+  margin: 0px;
+  background-color: #191724;
+  border-radius: 0px;
+  border: 1px solid #ebbcba;
+  color: #191724;
+  font-family: "CommitMono Nerd Font";
+  font-size: 20px;
+}
+
+#input {
+  margin: 5px;
+  border-radius: 0px;
+  border: none;
+  border-radius: 0px;
+  color: #ebbcba;
+  background-color: #26233a;
+}
+
+#inner-box {
+  margin: 5px;
+  border: none;
+  background-color: #191724;
+  color: #191724;
+  border-radius: 0px;
+}
+
+#outer-box {
+  margin: 15px;
+  border: none;
+  background-color: #191724;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+}
+
+#text {
+  margin: 5px;
+  border: none;
+  color: #ebbcba;
+}
+
+#entry:selected {
+  background-color: #ebbcba;
+  color: #191724;
+  border-radius: 0px;
+  outline: none;
+}
+
+#entry:selected * {
+  background-color: #ebbcba;
+  color: #191724;
+  border-radius: 0px;
+  outline: none;
+}
+
+
