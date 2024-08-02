@@ -2,14 +2,10 @@
   "layer": "top",
   "modules-left": ["hyprland/workspaces", "hyprland/mode"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["tray", "pulseaudio", "clock"],
+  "modules-right": ["pulseaudio", "clock"],
   "hyprland/window": {
     "max-length": 50,
   },
-	"tray": {
-		"icon-size": 21,
-		"spacing": 10
-	},
   "pulseaudio": {
     "tooltip": false,
     "scroll-step": 5,
