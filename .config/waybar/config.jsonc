@@ -17,6 +17,8 @@
     },
   },
   "clock": {
-    "format-alt": "{:%a, %d. %b  %H:%M}",
-  },
+    "interval": 60,
+    "format": "{:%A, %B %d - %I:%M %p}",
+    "max-length": 50 
+	}
 }
