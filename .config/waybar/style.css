@@ -13,7 +13,7 @@ window#waybar {
 
 #window {
   background: none;
-  color: #ebbcba;
+  color: #908caa;
   padding: 10px 0;
 }
 
@@ -29,13 +29,18 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background: #ebbcba;
+  background: #908caa;
   color: #191724;
 }
 
 #clock,
 #pulseaudio {
-  background-color: #ebbcba;
+  background-color: #908caa;
   color: #191724;
   padding: 0 25px;
 }
+
+/*
+ * restart waybar
+ * killall -SIGUSR2 waybar
+ * */

@@ -2,12 +2,12 @@ sort=-time
 layer=overlay
 font=CommitMono Nerd Font 15
 background-color=#191724
-text-color=#ebbcba
+text-color=#908caa
 width=300
 height=200
 padding=10
 border-size=1
-border-color=#ebbcba
+border-color=#908caa
 
 icons=0
 max-icon-size=64
@@ -16,10 +16,10 @@ ignore-timeout=1
 font=monospace 14
 
 [urgency=low]
-border-color=#ebbcba
+border-color=#908caa
 
 [urgency=normal]
-border-color=#ebbcba
+border-color=#908caa
 
 [urgency=high]
 border-color=#eb6f92
