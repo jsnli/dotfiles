@@ -25,6 +25,18 @@ return {
 
 			lspconfig.lua_ls.setup({
 				capabilities = capabilities,
+				settings = {
+					Lua = {
+						diagnostics = {
+							globals = { "love" },
+						},
+						workspace = {
+							library = {
+								"${3rd}/love2d/library",
+							},
+						},
+					},
+				},
 			})
 			lspconfig.tsserver.setup({
 				capabilities = capabilities,
