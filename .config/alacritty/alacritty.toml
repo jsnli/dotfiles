@@ -6,10 +6,10 @@ padding.x = 10
 padding.y = 10
 
 [font]
-normal.family = "MapleMono NF"
-bold.family = "MapleMono NF" 
-italic.family = "MapleMono NF" 
-bold_italic.family = "MapleMono NF" 
+normal.family = "CommitMono Nerd Font"
+bold.family = "CommitMono Nerd Font" 
+italic.family = "CommitMono Nerd Font" 
+bold_italic.family = "CommitMono Nerd Font" 
 
 size = 12.0
 
