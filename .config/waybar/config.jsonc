@@ -12,6 +12,7 @@
     "format": "{icon} {volume}%",
     "format-muted": " {volume}%",
     "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol",
     "format-icons": {
       "default": ["", "", ""],
     },
@@ -19,6 +20,6 @@
   "clock": {
     "interval": 60,
     "format": "{:%A, %B %d - %I:%M %p}",
-    "max-length": 50 
-	}
+    "max-length": 50,
+  },
 }
