@@ -34,10 +34,16 @@ window#waybar {
 }
 
 #clock,
-#pulseaudio {
+#pulseaudio
+{
   background-color: #908caa;
   color: #191724;
   padding: 0 25px;
+}
+
+#tray {
+	background-color: transparent;
+	padding: 0 15px;
 }
 
 /*
